@@ -1,0 +1,132 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+ul li a.nav-link
+{
+    font-size: 18px;
+    color: red;
+}
+ul li a.nav-link:hover{
+    color: white;
+}
+#brand
+{
+    color:red;
+}
+#brand:hover{
+    color:white;
+    /* background-color: aliceblue; */
+}
+/* offcanvase start hover */
+#dark{
+    color:red;
+}
+/* offcanvase start hover */
+/* div.container1 start */
+#foot
+{
+    color: red;
+}
+
+/* #dark2
+{
+    background-image: url(image/football\ dark2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+#img2:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px red);
+    cursor: pointer;
+    transition: transform 1s;
+}
+/* div.container1 end */
+/* div.container2 start */
+#kick
+{
+    background-image: url(image/panelty.png);
+    background-repeat: no-repeat;
+    background-position: center-center;
+    background-size: contain;
+}
+.box {
+    width: 300px;
+    padding: 30px;
+    background: #111;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px red;
+}
+#Corner
+{
+    background-image: url(image/neymar9.png);
+    background-repeat: no-repeat;
+    background-position: center-center;
+    background-size: contain;
+}
+#Foul
+{
+    background-image: url(image/naymar\ jr.jpg);
+    background-repeat: no-repeat;
+    background-position: center-center;
+    background-size: contain;
+}
+#yellow
+{
+    background-image: url(image/yellow\ card5.jfif);
+    background-repeat: no-repeat;
+    background-position: center-center;
+    background-size: contain;
+}
+/* div.container2 end */
+/* div.container4 start */
+        body {
+            background: #f5f5f5;
+        }
+
+        /* .owl-carousel .item {
+            padding: 10px;
+        } */
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+          height: 100px;
+          width: 100px !important;
+            object-fit: cover;
+        }
+
+        .owl-nav button {
+            font-size: 35px !important;
+           
+        }
+
+        .owl-dots {
+            margin-top:5px;
+        }
+/* div.container4 end */
+/* div.container7 start */
+#Quick
+{
+    color: red;
+}
+#Quick:hover
+{
+    color: white;
+    cursor: pointer;
+}
+/* div.container7 end */
+
