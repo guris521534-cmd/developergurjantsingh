@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+    /* width: 400px; */
+    /* padding: 30px; */
+
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+#button {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    /* color: white; */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+   
+}
+#button1 {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    /* color: white; */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+   
+}
+#button1::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    clip-path: inset(0 75% 0 0);
+    animation: borderMove 2s linear infinite;
+}
+
+@keyframes borderMove {
+    0%   { clip-path: inset(0 75% 0 0); }
+    25%  { clip-path: inset(0 0 75% 0); }
+    50%  { clip-path: inset(75% 0 0 0); }
+    75%  { clip-path: inset(0 0 0 75%); }
+    100% { clip-path: inset(0 75% 0 0); }
+}
